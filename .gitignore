@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Go build artifacts
+app/bin/
+app/tmp/
+*.exe
+*.test
+*.out
+
+# Flutter / Dart build artifacts
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
